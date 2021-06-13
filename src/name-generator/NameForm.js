@@ -45,10 +45,11 @@ function NameForm ({ name, addName }) {
                     <label>Med etternavn</label> <input type="checkbox" name="last.double" checked={includeLast}
                                                         onChange={e => setIncludeLast(e.target.checked)}/>
                     <br/>
-                    {includeLast && <label>
-                        Dobbeletternavn: <input type="checkbox" name="last.double" checked={lastDouble}
+                    {includeLast && <div>
+                        <label>Dobbeletternavn:</label>
+                        <input type="checkbox" name="last.double" checked={lastDouble}
                                                 onChange={e => setFirstLastDouble(e.target.checked)}/>
-                    </label>}
+                    </div>}
                 </fieldset>
                 <input type="submit" value="Generér navn" onChange={e => handleSubmit(e)}/>
             </fieldset>
