@@ -46,6 +46,8 @@
 .App-name {
   min-height: 10vh;
   font-size: calc(30px + 2vmin);
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   color: white;
 }
 

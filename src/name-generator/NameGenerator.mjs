@@ -16,7 +16,7 @@ function getRandom (length) {
   return Math.floor(Math.random() * (max - min) + min)
 }
 
-function getName (source, double) {
+function getName (source, type, double) {
   const firstName = source[getRandom(source.length)] + ' '
   let secondName = ''
 
@@ -25,21 +25,22 @@ function getName (source, double) {
       secondName = source[getRandom(source.length)] + ' '
     }
   }
-  return getFormattedName(firstName, secondName)
+  return getFormattedName(firstName, secondName, type)
 }
 
-const getFormattedName = (firstName, secondName) => {
+const getFormattedName = (firstName, secondName, type) => {
   if (secondName === '') {
     return firstName
   }
+  const delimiter = type === 'first' ? ' ' : '-'
   return firstName.length <= secondName.length
-      ? `${firstName.trim()}-${secondName}`
-      : `${secondName.trim()}-${firstName}`
+    ? `${firstName.trim()}${delimiter}${secondName}`
+    : `${secondName.trim()}${delimiter}${firstName}`
 }
 
 function generateName (name) {
   const source = getSource(name.type, name.gender)
-  return getName(source, name.double)
+  return getName(source, name.type, name.double)
 }
 
 class NameGenerator {

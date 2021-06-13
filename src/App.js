@@ -33,7 +33,7 @@ function App () {
   return (
     <div className="App">
       <header className="App-header">
-          <span className="App-title">SoMeStar Insta-navnegenerator</span>
+          <span className="App-title">Annjo&apos;s Insta-navnegenerator</span>
       </header>
       <section>
           <GetName name={name} />
