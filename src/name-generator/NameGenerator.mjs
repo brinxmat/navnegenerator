@@ -25,7 +25,16 @@ function getName (source, double) {
       secondName = source[getRandom(source.length)] + ' '
     }
   }
-  return firstName.length <= secondName.length ? firstName + secondName : secondName + firstName
+  return getFormattedName(firstName, secondName)
+}
+
+const getFormattedName = (firstName, secondName) => {
+  if (secondName === '') {
+    return firstName
+  }
+  return firstName.length <= secondName.length
+      ? `${firstName.trim()}-${secondName}`
+      : `${secondName.trim()}-${firstName}`
 }
 
 function generateName (name) {
