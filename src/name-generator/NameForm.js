@@ -22,11 +22,11 @@ function NameForm ({ name, addName }) {
   return (
         <form onSubmit={handleSubmit} className="App-form">
             <fieldset>
-                <legend>Kustomisere ditt navn</legend>
+                <legend>Kustomisér ditt navn</legend>
                 <fieldset>
                     <legend>Fornavn</legend>
                     <fieldset>
-                        <legend>Velg kjønnet for ditt navn</legend>
+                        <legend>Velg kjønn for ditt navn</legend>
                         <label className="App-inline-choice">Kvinne: <input type="radio" name='first.gender' value='F'
                                                                             checked={firstGender === 'F'}
                                                                             onChange={e => setFirstGender(e.target.value)}/></label>
