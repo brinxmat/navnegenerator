@@ -20,7 +20,7 @@ function NameForm ({ name, addName }) {
   NameForm.propTypes = AppProptypes
 
   return (
-        <form onSubmit={handleSubmit} className="App-form">
+        <form onSubmit={handleSubmit} className="App-settings">
             <fieldset>
                 <legend>Kustomisér ditt navn</legend>
                 <fieldset>
