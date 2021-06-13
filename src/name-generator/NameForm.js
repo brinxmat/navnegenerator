@@ -42,13 +42,14 @@ function NameForm ({ name, addName }) {
                 <br/>
                 <fieldset>
                     <legend>Etternavn</legend>
-                    <label>Med etternavn</label> <input type="checkbox" name="last.double" checked={includeLast}
-                                                        onChange={e => setIncludeLast(e.target.checked)}/>
+                    <label>Med etternavn<input type="checkbox" name="last.double" checked={includeLast}
+                                               onChange={e => setIncludeLast(e.target.checked)}/>
+                    </label>
                     <br/>
                     {includeLast &&
                         <label>Dobbeletternavn:
                             <input type="checkbox" name="last.double" checked={lastDouble}
-                                                onChange={e => setFirstLastDouble(e.target.checked)}/>
+                                   onChange={e => setFirstLastDouble(e.target.checked)}/>
                         </label>}
                 </fieldset>
                 <input type="submit" value="Generér navn" onChange={e => handleSubmit(e)}/>
