@@ -49,14 +49,6 @@ class NameGenerator {
     this._last = last != null ? generateName(last) : ''
   }
 
-  get first () {
-    return this._first
-  }
-
-  get last () {
-    return this._last
-  }
-
   get name () {
     return this._first + this._last
   }

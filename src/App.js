@@ -10,7 +10,7 @@ function GetName ({ name }) {
   const first = new Name('first', name.firstGender, name.firstDouble)
   const generated = new NameGenerator(first, last).name
   return (
-        <div className="App-name">
+        <div className="App-name" data-testid="generated-name">
             {generated}
         </div>
   )
