@@ -4,6 +4,10 @@
   min-height: 100vh;
 }
 
+body {
+  background-color: #282c34;
+}
+
 .App-title {
   height: 10vmin;
   pointer-events: none;
@@ -46,11 +50,14 @@
 .App-name {
   min-height: 10vh;
   font-size: calc(30px + 2vmin);
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   color: white;
 }
 
 .App-form {
   min-height: 60vh;
+  padding-bottom: 10vh;
 }
 
 .App-link {
