@@ -2,6 +2,7 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import App from './App'
 import NameForm from './name-generator/NameForm'
+import '@testing-library/jest-dom'
 
 test('renders title', () => {
   render(<App />)

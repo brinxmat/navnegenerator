@@ -1,8 +1,8 @@
 import './App.css'
-import NameGenerator from './name-generator/NameGenerator.mjs'
+import NameGenerator from './name-generator/NameGenerator.js'
 import React from 'react'
 import NameForm from './name-generator/NameForm'
-import Name from './name-generator/Name.mjs'
+import Name from './name-generator/Name.js'
 import AppProptypes from './AppProptypes'
 
 function GetName ({ name }) {
