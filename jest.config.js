@@ -9,5 +9,6 @@ module.exports = {
   testPathIgnorePatterns: [
     '<rootDir>/build/',
     '<rootDir>/node_modules/'
-  ]
+  ],
+  setupFiles: ['<rootDir>/setup-jest.js']
 }
