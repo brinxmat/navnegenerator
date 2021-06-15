@@ -4,6 +4,9 @@ import React from 'react'
 import NameForm from './name-generator/NameForm'
 import Name from './name-generator/Name.js'
 import AppProptypes from './AppProptypes'
+import ReactGA from 'react-ga'
+ReactGA.initialize('UA-132839204-1', { testMode: process.env.NODE_ENV === 'test' })
+ReactGA.pageview(window.location.pathname + window.location.search)
 
 function GetName ({ name }) {
   const last = (name.includeLast) ? new Name('last', null, name.lastDouble) : null
