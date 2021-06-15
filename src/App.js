@@ -5,7 +5,7 @@ import NameForm from './name-generator/NameForm'
 import Name from './name-generator/Name.js'
 import AppProptypes from './AppProptypes'
 import ReactGA from 'react-ga'
-ReactGA.initialize('G-6PCRDTM0H3', { testMode: process.env.NODE_ENV === 'test' })
+ReactGA.initialize('UA-199572902-1', { testMode: process.env.NODE_ENV === 'test' })
 ReactGA.pageview(window.location.pathname + window.location.search)
 
 function GetName ({ name }) {
