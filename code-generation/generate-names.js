@@ -5,8 +5,14 @@ const path = require('path')
 const namesM = []
 const namesF = []
 const surnames = []
+
 const inputFile = path.resolve(__dirname, '../data/names.csv')
 const outputFile = path.resolve(__dirname, '../src/name-generator/Constants.js')
+fs.writeFile(outputFile, '', (err) => {
+  if (err) {
+    throw err
+  }
+})
 fs.createReadStream(inputFile)
   .pipe(csv({ headers: ['Guttenavn', 'Jentenavn', 'Etternavn'], skipLines: 1 }))
   .on('data', (data) => updateNames(data))
