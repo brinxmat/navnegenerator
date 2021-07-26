@@ -12,11 +12,12 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "generateNames": "node ./code-generation/generate-names.js",
     "lint": "eslint ./src --ext .js",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "jest": "jest",
-    "test": "npm run lint && npm run jest",
+    "start": "npm run generateNames && react-scripts start",
+    "build": "npm run generateNames && react-scripts build",
+    "jest": "npm run generateNames && jest",
+    "test": "npm run generateNames && npm run lint && npm run jest",
     "eject": "react-scripts eject",
     "predeploy": "npm run test && npm run build",
     "deploy": "gh-pages -d build"
@@ -40,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "csv-parser": "^3.0.0",
     "@babel/core": "^7.14.5",
     "@babel/preset-env": "^7.14.5",
     "@testing-library/jest-dom": "^5.14.1",
