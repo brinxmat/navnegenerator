@@ -7,7 +7,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-ga": "^3.3.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-test-renderer": "^17.0.2",
     "web-vitals": "^1.1.2"
   },
@@ -41,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "csv-parser": "^3.0.0",
     "@babel/core": "^7.14.5",
     "@babel/preset-env": "^7.14.5",
     "@testing-library/jest-dom": "^5.14.1",
@@ -49,6 +48,7 @@
     "babel-jest": "^26.6.3",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "chai": "^4.3.4",
+    "csv-parser": "^3.0.0",
     "eslint": "^7.27.0",
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.23.3",
@@ -60,8 +60,8 @@
     "prop-types": "^15.7.2"
   },
   "volta": {
-    "node": "14.17.0",
-    "npm": "7.15.1"
+    "node": "14.17.6",
+    "npm": "7.22.0"
   },
   "jest": {
     "transform": {},
