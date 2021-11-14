@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/navnegenerator/static/css/main.cf16e0bd.chunk.css",
-    "main.js": "/navnegenerator/static/js/main.d0d2fd3b.chunk.js",
-    "main.js.map": "/navnegenerator/static/js/main.d0d2fd3b.chunk.js.map",
-    "runtime-main.js": "/navnegenerator/static/js/runtime-main.042387e4.js",
-    "runtime-main.js.map": "/navnegenerator/static/js/runtime-main.042387e4.js.map",
-    "static/js/2.62b24bf6.chunk.js": "/navnegenerator/static/js/2.62b24bf6.chunk.js",
-    "static/js/2.62b24bf6.chunk.js.map": "/navnegenerator/static/js/2.62b24bf6.chunk.js.map",
+    "main.css": "/navnegenerator/static/css/main.8fe9c815.chunk.css",
+    "main.js": "/navnegenerator/static/js/main.60521166.chunk.js",
+    "main.js.map": "/navnegenerator/static/js/main.60521166.chunk.js.map",
+    "runtime-main.js": "/navnegenerator/static/js/runtime-main.f5ffd9a1.js",
+    "runtime-main.js.map": "/navnegenerator/static/js/runtime-main.f5ffd9a1.js.map",
+    "static/js/2.b2243ee5.chunk.js": "/navnegenerator/static/js/2.b2243ee5.chunk.js",
+    "static/js/2.b2243ee5.chunk.js.map": "/navnegenerator/static/js/2.b2243ee5.chunk.js.map",
     "index.html": "/navnegenerator/index.html",
-    "static/css/main.cf16e0bd.chunk.css.map": "/navnegenerator/static/css/main.cf16e0bd.chunk.css.map",
-    "static/js/2.62b24bf6.chunk.js.LICENSE.txt": "/navnegenerator/static/js/2.62b24bf6.chunk.js.LICENSE.txt"
+    "static/css/main.8fe9c815.chunk.css.map": "/navnegenerator/static/css/main.8fe9c815.chunk.css.map",
+    "static/js/2.b2243ee5.chunk.js.LICENSE.txt": "/navnegenerator/static/js/2.b2243ee5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.042387e4.js",
-    "static/js/2.62b24bf6.chunk.js",
-    "static/css/main.cf16e0bd.chunk.css",
-    "static/js/main.d0d2fd3b.chunk.js"
+    "static/js/runtime-main.f5ffd9a1.js",
+    "static/js/2.b2243ee5.chunk.js",
+    "static/css/main.8fe9c815.chunk.css",
+    "static/js/main.60521166.chunk.js"
   ]
 }
