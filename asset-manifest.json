@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/navnegenerator/static/css/main.8fe9c815.chunk.css",
-    "main.js": "/navnegenerator/static/js/main.60521166.chunk.js",
-    "main.js.map": "/navnegenerator/static/js/main.60521166.chunk.js.map",
-    "runtime-main.js": "/navnegenerator/static/js/runtime-main.f5ffd9a1.js",
-    "runtime-main.js.map": "/navnegenerator/static/js/runtime-main.f5ffd9a1.js.map",
-    "static/js/2.b2243ee5.chunk.js": "/navnegenerator/static/js/2.b2243ee5.chunk.js",
-    "static/js/2.b2243ee5.chunk.js.map": "/navnegenerator/static/js/2.b2243ee5.chunk.js.map",
+    "main.css": "/navnegenerator/static/css/main.902c8423.css",
+    "main.js": "/navnegenerator/static/js/main.500a04ba.js",
     "index.html": "/navnegenerator/index.html",
-    "static/css/main.8fe9c815.chunk.css.map": "/navnegenerator/static/css/main.8fe9c815.chunk.css.map",
-    "static/js/2.b2243ee5.chunk.js.LICENSE.txt": "/navnegenerator/static/js/2.b2243ee5.chunk.js.LICENSE.txt"
+    "main.902c8423.css.map": "/navnegenerator/static/css/main.902c8423.css.map",
+    "main.500a04ba.js.map": "/navnegenerator/static/js/main.500a04ba.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.f5ffd9a1.js",
-    "static/js/2.b2243ee5.chunk.js",
-    "static/css/main.8fe9c815.chunk.css",
-    "static/js/main.60521166.chunk.js"
+    "static/css/main.902c8423.css",
+    "static/js/main.500a04ba.js"
   ]
 }
