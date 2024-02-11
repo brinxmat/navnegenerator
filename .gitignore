@@ -401,3 +401,4 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/react,eclipse,visualstudiocode,intellij+all,windows,linux,macos,node
 
 src/name-generator/Constants.js
+src/__snapshots__/

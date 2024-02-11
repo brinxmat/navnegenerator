@@ -10,10 +10,10 @@ function NameForm ({ name, addName }) {
   const handleSubmit = (event) => {
     event.preventDefault()
     addName({
-      firstGender: firstGender,
-      firstDouble: firstDouble,
-      lastDouble: lastDouble,
-      includeLast: includeLast
+      firstGender,
+      firstDouble,
+      lastDouble,
+      includeLast
     })
   }
 
